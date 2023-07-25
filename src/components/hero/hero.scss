@@ -1,0 +1,394 @@
+body {
+  position: relative;
+}
+.hero{
+  height: 100vh;
+}
+
+.btn_outline_secondary {
+  color: #6560E9 !important;
+  border-color: #6560E9 !important;
+}
+
+.btn_outline_secondary:hover {
+  color: white !important;
+  border-color: #6560E9 !important;
+  background-color: #6560E9 !important;
+}
+
+.hero_animation {
+  position: relative;
+  display: flex !important;
+  z-index: -1;
+}
+
+.animation_eliment1_wrapper {
+  position: absolute;
+  z-index: -2;
+}
+
+.animation_eliment2_wrapper {
+  position: absolute;
+  z-index: -3;
+}
+
+.animation_eliment3_wrapper {
+  position: absolute;
+  z-index: -4;
+}
+
+.animation_eliment4_wrapper {
+  position: absolute;
+  z-index: -5;
+}
+
+.animation_eliment5_wrapper {
+  position: absolute;
+  z-index: -6;
+}
+
+.animation_eliment6_wrapper {
+  position: absolute;
+  z-index: -7;
+}
+
+.animation_eliment7_wrapper {
+  position: absolute;
+  z-index: -8;
+}
+
+.animation_eliment8_wrapper {
+  position: absolute;
+  z-index: -9;
+}
+
+.animation_eliment9_wrapper {
+  position: absolute;
+  z-index: -9;
+}
+
+.animation_eliment10_wrapper {
+  position: absolute;
+  z-index: -10;
+}
+
+.animation_eliment1 {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  animation-name: exeani1;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in;
+}
+
+.animation_eliment2 {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  animation-name: exeani2;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in;
+}
+
+.animation_eliment3 {
+  margin-right: 10%;
+  margin-left: auto;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  animation-name: exeani3;
+  animation-duration: 25s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in;
+}
+
+.animation_eliment4 {
+  margin-right: 1%;
+  margin-left: auto;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  animation-name: exeani4;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in;
+}
+
+.animation_eliment5 {
+  margin-top: 10%;
+  display: block;
+  margin-right: auto;
+  margin-left: 60%;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  animation-name: exeani5;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in;
+}
+
+.animation_eliment6 {
+  margin-top: 22%;
+  display: block;
+  margin-right: auto;
+  margin-left: 70%;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  animation-name: exeani6;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in;
+}
+
+.animation_eliment7 {
+  margin-top: 35vh;
+  display: block;
+  margin-right: auto;
+  margin-left: 90%;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  animation-name: exeani7;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in;
+}
+
+.animation_eliment8 {
+  margin-top: 75vh;
+  display: block;
+  margin-right: auto;
+  margin-left: 0%;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  animation-name: exeani8;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in;
+}
+
+.animation_eliment9 {
+  margin-top: 60vh;
+  display: block;
+  margin-right: auto;
+  margin-left: 30%;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  animation-name: exeani9;
+  animation-duration: 25s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in;
+}
+
+.animation_eliment10 {
+  margin-top: 60vh;
+  display: block;
+  margin-right: auto;
+  margin-left: 90vw;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  animation-name: exeani10;
+  animation-duration: 45s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in;
+}
+
+@keyframes exeani1 {
+  0% {
+    margin-left: 0vw;
+    margin-top: 0vh;
+  }
+  25% {
+    margin-top: 40vh;
+  }
+  50% {
+    margin-top: 0vh;
+  }
+  75% {
+    margin-top: 40vh;
+  }
+  100% {
+    margin-left: 86vw;
+    margin-top: 0vh;
+    transform: rotateZ(360deg);
+  }
+}
+
+@keyframes exeani2 {
+  0% {
+    margin-top: 0vh;
+  }
+  100% {
+    margin-top: 75vh;
+    transform: rotateZ(360deg);
+  }
+}
+
+@keyframes exeani3 {
+  0% {
+    margin-right: 10%;
+    margin-top: 0vh;
+  }
+  25% {
+    margin-top: 40vh;
+  }
+  50% {
+    margin-top: 0vh;
+  }
+  75% {
+    margin-top: 40vh;
+  }
+  100% {
+    margin-right: 90%;
+    margin-top: 0vh;
+    transform: rotateZ(360deg);
+  }
+}
+
+@keyframes exeani4 {
+  0% {
+    margin-top: 0vh;
+  }
+  100% {
+    margin-top: 75vh;
+    transform: rotateZ(360deg);
+  }
+}
+
+@keyframes exeani5 {
+  0% {
+    margin-top: 10%;
+  }
+  25% {
+    margin-top: 0vh;
+  }
+  50% {
+    margin-top: 75vh;
+  }
+  75% {
+    margin-top: 0vh;
+  }
+  100% {
+    margin-top: 10%;
+    transform: rotateX(360deg);
+  }
+}
+
+@keyframes exeani6 {
+  0% {
+    margin-left: 70%;
+    margin-top: 22%;
+  }
+  25% {
+    margin-top: 35%;
+  }
+  50% {
+    margin-top: 22%;
+  }
+  75% {
+    margin-top: 35%;
+  }
+  100% {
+    margin-left: 0%;
+    margin-top: 22%;
+    transform: rotateZ(360deg);
+  }
+}
+
+@keyframes exeani7 {
+  0% {
+    margin-left: 90%;
+    margin-top: 35vh;
+  }
+  25% {
+    margin-top: 0vh;
+  }
+  50% {
+    margin-top: 35vh;
+  }
+  75% {
+    margin-top: 0vh;
+  }
+  100% {
+    margin-left: 0%;
+    margin-top: 35vh;
+    transform: rotateZ(360deg);
+  }
+}
+
+@keyframes exeani8 {
+  0% {
+    margin-top: 75vh;
+  }
+  100% {
+    margin-top: 0vh;
+  }
+}
+
+@keyframes exeani9 {
+  0% {
+    margin-top: 60vh;
+  }
+  25% {
+    margin-top: 0vh;
+  }
+  50% {
+    margin-top: 75vh;
+  }
+  75% {
+    margin-top: 0vh;
+  }
+  100% {
+    margin-top: 60vh;
+    transform: rotateY(360deg);
+  }
+}
+
+@keyframes exeani10 {
+  0% {
+    margin-left: 88vw;
+  }
+  25% {
+    margin-left: 0%;
+  }
+  50% {
+    margin-left: 88vw;
+  }
+  75% {
+    margin-left: 0%;
+  }
+  100% {
+    margin-left: 88vw;
+    transform: rotateZ(360deg);
+  }
+}

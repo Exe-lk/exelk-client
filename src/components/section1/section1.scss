@@ -1,0 +1,79 @@
+//section 1
+.section1{
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  padding-top: 100px;
+  height: 100vh;
+  width: 100%;
+  background-image: url("Path7.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+
+}
+.section1 h2, .section1 p{
+  text-align: center;
+}
+.section1 h2{
+  color: #6560E9;
+}
+.section1 p{
+  font-size: 1.563rem;
+}
+.sec1_animation_eliment1{
+  width: fit-content;
+  height: fit-content;
+  display: block;
+  margin-left: auto;
+  margin-right: 0vw;
+  animation-name: exeani11;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in;
+}
+.sec1_animation_eliment2{
+  width: fit-content;
+  height: fit-content;
+  display: block;
+  margin-left:0vw ;
+  margin-right: auto;
+  animation-name: exeani12;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in;
+}
+@keyframes exeani11 {
+  0%{margin-right: 0vw;}
+  100%{
+    margin-right: 85vw;
+    transform: rotateZ(-360deg);}
+}
+@keyframes exeani12 {
+  0%{margin-left: 0vw;}
+  100%{
+    margin-left: 70vw;
+    transform: rotateZ(360deg);}
+}
+.sec1_content{
+  position: absolute;
+}
+.sec1_animation{
+  position: absolute;
+}
+.sec1_content h2,.sec1_content_footer h5:hover{
+  background: -webkit-linear-gradient(0deg,#6560E9 0%, #4F83DF 50%,#08E5C7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+
+}
+.sec1_content_footer h5:hover{
+  cursor: pointer;
+}
+.sec1_content_footer a{
+  text-decoration: none;
+}

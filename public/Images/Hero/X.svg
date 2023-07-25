@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="114.342" height="148.409" viewBox="0 0 114.342 148.409">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #6560e9;
+        stroke-width: 5px;
+        font-size: 105px;
+        font-family: ArialRoundedMTBold, Arial Rounded MT;
+      }
+    </style>
+  </defs>
+  <text id="X" class="cls-1" transform="translate(13.933 99.438) rotate(20)"><tspan x="0" y="0">X</tspan></text>
+</svg>

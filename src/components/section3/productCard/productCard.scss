@@ -1,0 +1,25 @@
+.product_card_head, .product_card_body h6{
+  color: #6560E9;
+}
+.product_card_wrapper{
+  background-color: #E8E7FC;
+}
+.product_card_wrapper a{
+  text-decoration: none;
+}
+
+.product_card_wrapper:hover {
+  box-shadow:  0 1rem 3rem #4F83DF !important;
+  cursor: pointer;
+}
+
+.product_card_footer{
+  color: black;
+}
+
+.product_card_wrapper:hover .product_card_footer, .product_card_wrapper:hover .product_card_head{
+  background: -webkit-linear-gradient(0deg,#6560E9 0%, #4F83DF 50%,#08E5C7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}

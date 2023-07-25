@@ -1,0 +1,37 @@
+// section 2
+//.section2{
+//  margin-top: 15vh;
+//}
+.service_card_wrapper{
+  border-radius: 10px;
+  height: 300px;
+  width: auto;
+  padding: 20px;
+  background-color: white;
+}
+.sec2_content h2,.service_card_head,.service_card_body,.service_card_footer{
+  text-align: center;
+}
+.service_card_head{
+  height: 50px;
+}
+.service_card_body{
+  height: 100px;
+  margin-top: 20px;
+}
+.service_card_footer{
+  height: 50px;
+}
+.service_card_body,.service_card_footer{
+  margin-top: 20px;
+}
+.service_card_head{
+  color: #6560E9;
+}
+
+.sec2_content h2{
+  background: -webkit-linear-gradient(0deg,#6560E9 0%, #4F83DF 50%,#08E5C7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
