@@ -4,7 +4,7 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
 
 // We import scss for Home
-import './Hero.scss';
+import './hero.css';
 
 export default function Hero(){
 
@@ -16,65 +16,76 @@ export default function Hero(){
                     {/* Div for applying css animation  */}
                     <div className="animation_eliment1">
                         {/* floating element image */}
-                        <img src="/Images/Hero/X-1.svg" alt=""/>
+
+                        <img src="/Images/Hero/X-1.svg" alt="img"/>
                     </div>
                 </div>
                 <div className="container-fluid animation_eliment2_wrapper">
                     <div className="animation_eliment2">
-                        <img src="/Images/Hero/Rectangle 4.svg" alt=""/>
+
+                        <img src="/Images/Hero/Rectangle 4.svg" alt="img"/>
                     </div>
                 </div>
 
                 <div className="container-fluid animation_eliment3_wrapper">
                     <div className="animation_eliment3">
-                        <img src="/Images/Hero/Polygon 4.svg" alt=""/>
+
+                        <img src="/Images/Hero/Polygon 4.svg" alt="img"/>
                     </div>
                 </div>
 
                 <div className="container-fluid animation_eliment4_wrapper">
                     <div className="animation_eliment4">
-                        <img src="/Images/Hero/Ellipse 3.svg" alt=""/>
+
+                        <img src="/Images/Hero/Ellipse 3.svg" alt="img"/>
                     </div>
                 </div>
 
                 <div className="container-fluid animation_eliment5_wrapper">
                     <div className="animation_eliment5">
-                        <img src="/Images/Hero/Ellipse 2.svg" alt=""/>
+
+                        <img src="/Images/Hero/Ellipse 2.svg" alt="img"/>
                     </div>
                 </div>
 
                 <div className="container-fluid animation_eliment6_wrapper">
                     <div className="animation_eliment6">
-                        <img src="/Images/Hero/Polygon 1.svg" alt=""/>
+
+                        <img src="/Images/Hero/Polygon 1.svg" alt="img"/>
                     </div>
                 </div>
 
                 <div className="container-fluid animation_eliment7_wrapper">
                     <div className="animation_eliment7">
-                        <img src="/Images/Hero/X.svg" alt=""/>
+
+                        <img src="/Images/Hero/X.svg" alt="img"/>
                     </div>
                 </div>
 
                 <div className="container-fluid animation_eliment8_wrapper">
                     <div className="animation_eliment8">
-                        <img src="/Images/Hero/Polygon 3.svg" alt=""/>
+
+                        <img src="/Images/Hero/Polygon 3.svg" alt="img"/>
                     </div>
                 </div>
 
                 <div className="container-fluid animation_eliment9_wrapper">
                     <div className="animation_eliment9">
-                        <img src="/Images/Hero/Ellipse 1.svg" alt=""/>
+
+                        <img src="/Images/Hero/Ellipse 1.svg" alt="img"/>
                     </div>
                 </div>
 
                 <div className="container-fluid animation_eliment10_wrapper">
                     <div className="animation_eliment10">
-                        <img src="/Images/Hero/Rectangle 5.svg" alt=""/>
+
+                        <img src="/Images/Hero/Rectangle 5.svg" alt="img"/>
                     </div>
                 </div>
             </div>
             <div className="container pt-5 mt-5">
-                <img className="img-fluid" src="/Images/s.png" alt=""/>
+
+                <img className="img-fluid" src="/Images/s.png" alt="img"/>
                 {/* website heading */}
                 <h2>We Make Your Idea Executable........</h2>
                 {/* button for open client request submit popup  */}

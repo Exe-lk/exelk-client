@@ -12,7 +12,8 @@ export default function ProductCard(props){
                         <h5 className="text-center">{props.header}</h5>
                     </div>
                     <div className="product_card_body p-2 ">
-                        <img className="img-fluid" src={props.imgsrc} width="540px" height="540px"/>
+
+                        <img className="img-fluid" src={props.imgsrc} width="540px" height="540px" alt="img"/>
 
                     </div>
                     <div className="product_card_footer p-2">

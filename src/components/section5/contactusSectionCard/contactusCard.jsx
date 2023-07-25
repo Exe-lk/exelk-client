@@ -22,7 +22,8 @@ export default function ContactUs(){
                             </div>
                         </div>
                         <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
-                            <img className="img-fluid mt-5" src="/Images/contactus/contactus.png"/>
+                            {/* eslint-disable-next-line react/jsx-no-undef */}
+                            <img className="img-fluid mt-5" src="/Images/contactus/contactus.png" alt="img"/>
                         </div>
                     </div>
 

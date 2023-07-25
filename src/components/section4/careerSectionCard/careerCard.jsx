@@ -22,7 +22,8 @@ export default function CareerCard(){
                     </div>
                     <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
                         <div className="">
-                            <img className="img-fluid" src="/Images/career/career.gif"/>
+                            {/* eslint-disable-next-line react/jsx-no-undef */}
+                            <img className="img-fluid" src="/Images/career/career.gif" alt="img"/>
                         </div>
                     </div>
                 </div>
