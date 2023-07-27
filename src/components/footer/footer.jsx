@@ -20,7 +20,7 @@ export default function Footer(){
                             <h5>hello@exe.lk</h5>
                             <br/>
                             <h3>Address</h3>
-                            <h5>Exe.lk (Pvt) Ltd,<br/> No 624/12/1, <br/> 5th Lane,<br/>Jaya road,<br/>Homagama (10200),<br/> Sri Lanka</h5>
+                            <h5>Exe.lk (Pvt) Ltd,<br/> No 624/12/1, <br/> 5th Lane,<br/>Jaya Mawatha,<br/>Homagama (10200),<br/> Sri Lanka</h5>
                         </div>
                     </div>
                 </div>
