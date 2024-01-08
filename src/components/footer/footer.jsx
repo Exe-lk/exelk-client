@@ -10,6 +10,7 @@ export default function Footer(){
                         <div className="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 col-xxl-5 text-white mt-3">
                             <h3 >Who we are</h3>
                             <h5 className="mt-3">We Are A Sri Lankan Digital Transformation Consultancy And Software Development Company named Exe.lk (Pvt) Ltd That Provides Cutting Edge Engineering Solutions</h5>
+
                         </div>
                         <div className="col-2">
 
@@ -20,7 +21,13 @@ export default function Footer(){
                             <h5>hello@exe.lk</h5>
                             <br/>
                             <h3>Address</h3>
-                            <h5>Exe.lk (Pvt) Ltd,<br/> No 624/12/1, <br/> 5th Lane,<br/>Jaya Mawatha,<br/>Homagama (10200),<br/> Sri Lanka</h5>
+                            <h5>Exe.lk (Pvt) Ltd,<br/> No 289/9A, <br/> 5th Lane,<br/> Kulasiri Kumarage st,<br/> Katuwana rd,<br/> Homagama (10200),<br/> Sri Lanka</h5>
+                        </div>
+                    </div>
+                    <div className="row pt-5">
+                        <div className="row text-center">
+                            <h5 >© 2024 Exe.lk <br/>
+                                All Rights Reserved</h5>
                         </div>
                     </div>
                 </div>
