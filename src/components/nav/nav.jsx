@@ -18,19 +18,19 @@ export default function TopNavigation(){
                                 <a id="home" className="nav-link mb-1" href="/">Home</a>
                             </li>
                             <li id="services" className="nav-item">
-                                <a className="nav-link" href="#section2">Our Services</a>
+                                <a className="nav-link" href="/#section2">Our Services</a>
                             </li>
                             <li id="products" className="nav-item">
-                                <a className="nav-link mb-1" href="#section3">Our Products</a>
+                                <a className="nav-link mb-1" href="/#section3">Our Products</a>
                             </li>
                             <li id="career" className="nav-item">
-                                <a className="nav-link mb-1" href="#section4">Career</a>
+                                <a className="nav-link mb-1" href="/#section4">Career</a>
                             </li>
                             <li id="solutions" className="nav-item ">
-                                <a className="nav-link mb-1" href="#section1">About Us</a>
+                                <a className="nav-link mb-1" href="/#section1">About Us</a>
                             </li>
                             <li id="partners" className="nav-item">
-                                <a className="nav-link mb-1" href="#section5">Contact us</a>
+                                <a className="nav-link mb-1" href="/#section5">Contact us</a>
                             </li>
 
                         </ul>
