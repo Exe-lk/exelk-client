@@ -6,7 +6,7 @@ import "./nav.scss"
 export default function TopNavigation(){
     return(
         <>
-            <nav className="navbar navbar-expand-sm bg-white  navbar-light pb-0 pt-3 sticky-top">
+            <nav className="navbar navbar-expand-sm bg-black navbar-dark pb-0 pt-3 sticky-top">
                 <div className="container">
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapsibleNavbar">

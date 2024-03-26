@@ -4,7 +4,7 @@ export default function ContactUs(){
 
     return(
         <>
-            <div className="contactus_card_wrapper shadow-lg rounded-4 p-3 mb-5">
+            <div className="contactus_card_wrapper shadow-lg rounded-4 p-3 mb-5 bg-dark">
                 <div className="contactus_card_content p-2">
                     <div className="row">
                         <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
@@ -13,7 +13,7 @@ export default function ContactUs(){
                             </div>
                             <div className="contactus_card_body py-2 ">
                                 <form>
-                                    <input className="form-control rounded-5 mb-3 form_hover" placeholder="Enter your name here ( ex: Mr Jhon Wick)"/>
+                                    <input className="form-control rounded-5 mb-3 form_hover " placeholder="Enter your name here ( ex: Mr Jhon Wick)"/>
                                     <input className="form-control rounded-5 my-3 form_hover" placeholder="Enter your occupation ( ex: Founder & CEO of abcd)"/>
                                     <input className="form-control rounded-5 my-3 form_hover" placeholder="Enter your email address ( ex: jhonwick@exe.lk)"/>
                                     <textarea className="form-control rounded-4 my-3 form_hover" rows="10" placeholder="Enter your message here..."/>

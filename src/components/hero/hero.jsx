@@ -87,9 +87,9 @@ export default function Hero(){
 
                 <img className="img-fluid" src="/Images/s.png" alt="img"/>
                 {/* website heading */}
-                <h2>We Make Your Idea Executable........</h2>
+                <h2 className={'text-light'}>We Make Your Idea Executable........</h2>
                 {/* button for open client request submit popup  */}
-                <a type="button" className="btn btn-lg btn_outline_secondary mt-5" href="#section5">Connect With US <i
+                <a type="button" className="btn btn-lg btn_outline_secondary mt-5" href="#section5">Connect With Us <i
                     className="fa-solid fa-arrow-right-long"></i></a>
             </div>
         </div>
