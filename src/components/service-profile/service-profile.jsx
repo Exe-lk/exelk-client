@@ -34,7 +34,7 @@ export default function ServiceProfile({Title,Description,Title2,Description2,Im
                         <h6 className={'lead mt-5'}>{Description3}</h6>
                     </div>
                     <div className={'col-lg-6 col-xl-6 col-xxl-6 d-none d-md-block'}>
-                        <img className={'img-fluid'} src={ImgSrc3} width={'400px'} height={'400px'}/>
+                        <img className={'img-fluid float-end'} src={ImgSrc3} width={'400px'} height={'400px'}/>
                     </div>
                 </div>
                 <div className={'row vh-100'}>
@@ -55,7 +55,7 @@ export default function ServiceProfile({Title,Description,Title2,Description2,Im
                         <h6 className={'lead mt-5'}>{Description5}</h6>
                     </div>
                     <div className={'col-lg-6 col-xl-6 col-xxl-6 d-none d-md-block'}>
-                        <img className={'img-fluid'} src={ImgSrc5} width={'400px'} height={'400px'}/>
+                        <img className={'img-fluid float-end'} src={ImgSrc5} width={'400px'} height={'400px'}/>
                     </div>
                 </div>
             </div>
