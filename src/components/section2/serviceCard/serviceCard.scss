@@ -21,6 +21,7 @@
 .service_card_body{
   height: 100px;
   margin-top: 20px;
+
 }
 .service_card_footer{
   height: 50px;
@@ -32,9 +33,9 @@
   color: #6560E9;
 }
 
-.service_card_body h6{
-  color: black;
-}
+//.service_card_body h6{
+//  color: black;
+//}
 
 .service_card_wrapper:hover .service_card_head h5,
 .service_card_wrapper:hover .service_card_footer h5{
