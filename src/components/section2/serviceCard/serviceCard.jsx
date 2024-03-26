@@ -6,7 +6,7 @@ export default function ServiceCard(props){
     return(
         <>
             <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-3 col-xxl-3">
-                <div className="service_card_wrapper shadow-sm p-3 mb-5 bg-white">
+                <div className="service_card_wrapper shadow p-3 mb-5 bg-white">
                     <a href={props.hreflink}>
                     <div className="service_card_head">
                         <h5>{props.header}</h5>

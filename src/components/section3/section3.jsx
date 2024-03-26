@@ -6,7 +6,7 @@ export default function Section3(){
     return(
         <div id="section3" className="conainer-fluid section3">
             <div className="container">
-                <h2 id="section3_head" className="section3Head text-center mb-4 mt-4">Our Products</h2>
+                <h2 id="section3_head" className="section3Head text-center mb-4 mt-4 display-6">Our Products</h2>
                 <div className="row">
                     <ProductCard header="E - Business" body="Revolutionize Your Business: Embrace the Power of E-Business Solutions!" hreflink="pages/products/ebusiness" imgsrc="/Images/collectiongif/3dbusiness.webp"/>
                     <ProductCard header="New Innovations" body="Unveiling the Future: Introducing Our Latest Breakthrough in Software Innovation!" hreflink="pages/products/new-innovations" imgsrc="/Images/collectiongif/innovation.png"/>
