@@ -5,8 +5,8 @@ import TopNavigation from "../components/nav/nav";
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Sri Lankan Best Software Solutions | Exe.lk',
-  description: 'exelk offers top-notch software solutions to streamline your business processes. Contact us today for a free consultation!',
+  title: 'Sri Lankan Best Innovative Software Solutions for Future Business World | Exe.lk',
+  description: 'exelk offers top-notch software solutions to streamline your business processes located in Sri Lanka. Contact us today for a free consultation!',
 }
 
 export default function RootLayout({ children }) {
