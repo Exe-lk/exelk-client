@@ -11,14 +11,14 @@ export default function Section1(){
                 <div className="container-fluid sec1_animation_eliment1_wrapper">
                     <div className="sec1_animation_eliment1">
 
-                        <img className="img-fluid" src="./Images/sec1/sec2_animation/Rectangle 7.svg" alt="vector" />
+                        <img className="img-fluid" src="./Images/sec1/sec2_animation/Rectangle 7.svg" alt="vector" width={'100px'}/>
                     </div>
                 </div>
 
                 <div className="container-fluid sec1_animation_eliment2_wrapper">
                     <div className="sec1_animation_eliment2">
 
-                        <img src="./Images/sec1/sec2_animation/X.svg" alt="vector" />
+                        <img src="./Images/sec1/sec2_animation/X.svg" alt="vector" width={'100px'} />
                     </div>
                 </div>
 
