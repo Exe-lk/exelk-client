@@ -4,8 +4,8 @@ import "./section3.scss"
 
 export default function Section3(){
     return(
-        <div id="section3" className="conainer-fluid section3">
-            <div className="container">
+        <div id="section3" className="section3 conainer-fluid section3">
+            <div className="container pt-2">
                 <h2 id="section3_head" className="section3Head text-center mb-4 mt-4 display-6">Our Products</h2>
                 <div className="row">
                     <ProductCard header="E - Business" body="Revolutionize Your Business: Embrace the Power of E-Business Solutions!" hreflink="pages/products/ebusiness" imgsrc="/Images/collectiongif/3dbusiness.webp"/>
