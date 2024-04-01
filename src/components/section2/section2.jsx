@@ -6,8 +6,8 @@ export default function Section2(){
     return(
 
 
-            <div id="section2" class="section2 container-fluid">
-                <div class="container sec2_content">
+            <div id="section2" className="section2 container-fluid">
+                <div className="container sec2_content">
                     <h2 className="mb-4 display-6">Our Services</h2>
                     <div className="row">
                         <ServiceCard header="Research & Development" body="Fueling Innovation: Empowering Your R&D with Our Expert Software Services!" hreflink="services/research-and-development"/>

@@ -5,13 +5,13 @@ import "./section5.scss"
 
 export default function Section5(){
     return(
-        <>
-            <div id="section5" className="conainer-fluid section5">
-                <div className="container">
-                    <h2 className="section5Head text-center mb-4 mt-4 display-6">Contact Us</h2>
+        <div className={'section5'}>
+            <div id="section5" className="section5 conainer-fluid">
+                <div className="container pt-5 pb-5">
+                    <h2 className="section5Head text-center display-6 mb-5">Contact Us</h2>
                     <ContactUs/>
                 </div>
             </div>
-        </>
+        </div>
     )
 }

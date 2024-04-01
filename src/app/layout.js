@@ -9,9 +9,14 @@ export const metadata = {
   description: 'exelk offers top-notch software solutions to streamline your business processes located in Sri Lanka. Contact us today for a free consultation!',
 }
 
+
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+        <head>
+            <link rel="stylesheet" href="@sweetalert2/themes/dark/dark.css"/>
+        </head>
       <body className={`${inter.className} bg-black`}>
       <TopNavigation/>
       {children}
