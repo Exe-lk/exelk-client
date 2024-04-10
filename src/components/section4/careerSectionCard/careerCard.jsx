@@ -14,9 +14,9 @@ export default function CareerCard(){
                             </div>
                             <div className="career_card_body py-3 mx-3">
                                 <h6 className="text-light">Learn about our culture and how we have grown up</h6>
-                                <a href="/career"><h5 className="mt-5">Careers</h5></a>
+                                <a href="/careers"><h5 className="mt-5">Careers</h5></a>
                                 <br/>
-                                <a href="/career/positions"><h5 className="">See available positions</h5></a>
+                                <a href="/careers/positions"><h5 className="">See available positions</h5></a>
                             </div>
                         </div>
                     </div>

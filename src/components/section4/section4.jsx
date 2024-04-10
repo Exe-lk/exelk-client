@@ -7,7 +7,7 @@ export default function Section4(){
         <>
             <div id="section4" className="conainer-fluid section4">
                 <div className="container">
-                    <h2 className="section4Head text-center mb-4 mt-4 display-6">Career</h2>
+                    <h2 className="section4Head text-center mb-4 mt-4 display-6">Careers</h2>
                     <CareerCard/>
                 </div>
             </div>

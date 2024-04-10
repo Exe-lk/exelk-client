@@ -7,7 +7,7 @@ export default function ProductCard(props){
             <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-3 col-xxl-3">
 
                 <div className="product_card_wrapper shadow-sm p3 mb-5 rounded-3 mx-4 bg-dark">
-                    <a href={props.hreflink}>
+                    <a href={props.hreflink} title={props.title}>
                     <div className="product_card_head p-3">
                         <h5 className="text-center">{props.header}</h5>
                     </div>

@@ -72,13 +72,12 @@ export default function ContactUs(){
                         Swal.fire({
                             position: "center",
                             icon: "success",
-                            title: "Successfully Send your message!",
+                            title: "Your message was sent successfully!",
                             showConfirmButton: false,
                             timer: 2000
                         });
                         formik.resetForm()
                     } else if (res.status === 400) {
-                        alert("Faild to Submit");
                         Swal.fire({
                             icon: "error",
                             title: "Oops...",
