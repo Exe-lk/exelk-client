@@ -27,6 +27,7 @@ export default function Section1(){
                         <img src="/Images/sec1/expertise/nestjs.png" className="img-fluid" alt="..." />
                         <img src="/Images/sec1/expertise/android-studio.png" className="img-fluid" alt="..." />
                         <img src="/Images/sec1/expertise/flutter.png" className="img-fluid" alt="..." />
+                        <img src="/Images/sec1/expertise/figma.png" className="img-fluid" alt="..." />
                         <img src="/Images/sec1/expertise/tensorflow.png" className="img-fluid" alt="..." />
                         <img src="/Images/sec1/expertise/pytorch.png" className="img-fluid" alt="..." />
                         <img src="/Images/sec1/expertise/gpt-4.webp" className="img-fluid" alt="..." />
