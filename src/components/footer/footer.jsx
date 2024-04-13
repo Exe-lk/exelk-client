@@ -40,7 +40,7 @@ export default function Footer(){
                     </div>
                     <div className="row pt-3">
                         <div className="row text-center text-light">
-                            <h5 >© 2024 Exe.lk <br/>
+                            <h5 >© 2021 - 2024 Exe.lk <br/>
                                 All Rights Reserved</h5>
                         </div>
                     </div>

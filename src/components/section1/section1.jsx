@@ -28,7 +28,7 @@ export default function Section1(){
                 <h2 className="mt-3 display-7">Who We Are</h2>
                 <p className="mt-3 mx-5 fs-6 text lead text-light">Welcome to Exe.lk (Pvt) Ltd, where we turn ideas into reality! With innovation at our core, our skilled team crafts cutting-edge solutions that empower businesses and individuals alike. From web applications to mobile solutions, our tailored approach ensures we not only meet but exceed expectations. Whether you are an aspiring entrepreneur or a visionary enterprise, we are here to transform your concepts into tangible success. Embrace this journey of innovation with us, and together, let&aposs create something extraordinary. Welcome to Exe.lk (Pvt) Ltd, where your ideas take flight – making the impossible possible!</p>
                 <div className="sec1_content_footer">
-                    <h5 className="mt-5 text-center"><a href="/AboutMore">Read More</a></h5>
+                    <h5 className="mt-5 text-center"><a href="/about-us">Read More</a></h5>
                 </div>
 
             </div>
