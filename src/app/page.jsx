@@ -1,8 +1,5 @@
 "use client";
 import React,{useEffect} from "react";
-
-import Image from 'next/image'
-import styles from './page.module.css'
 import Hero from "@/components/hero/hero";
 import Section1 from "@/components/section1/section1";
 import Section2 from "@/components/section2/section2";
