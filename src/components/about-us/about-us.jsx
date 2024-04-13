@@ -72,7 +72,21 @@ export default function AboutUs() {
                 </div>
                 <div className={'row pb-5 pt-5'}>
                     <h2 className={'aboutus_txt_color text-center mb-5'}>Our Team</h2>
-                    <div className={'col-8'}>
+                    <div className={'col-12 col-xs-12 col-sm-12 col-md-12 d-lg-none d-block mb-3'}>
+                        <div className={'col-12'}>
+                            <img className={'img-fluid'} src={'/Images/about-us/team/exelk-team-girls.jpg'} alt={''}/>
+                        </div>
+                        <div className={'col-12'}>
+                            <img className={'img-fluid'} src={'/Images/about-us/team/exelk-team-02.jpg'} alt={''}/>
+                        </div>
+                        <div className={'col-12'}>
+                            <img className={'img-fluid'} src={'/Images/about-us/team/exelk-team-03.jpg'} alt={''}/>
+                        </div>
+                        <div className={'col-12'}>
+                            <img className={'img-fluid'} src={'/Images/about-us/team/exelk-team-01.jpg'} alt={''}/>
+                        </div>
+                    </div>
+                    <div className={'col-12 col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 col-xxl-8'}>
                         <div className={'row text-light'}>
                             <div className={'col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 text-center'}>
                                 <div className={'col-12'}>
@@ -161,7 +175,7 @@ export default function AboutUs() {
                             </div>
                         </div>
                     </div>
-                    <div className={'col-4'}>
+                    <div className={'col-lg-4 col-xl-4 col-xxl-4 d-none d-md-block'}>
                         <div className={'col-12'}>
                             <img className={'img-fluid'} src={'/Images/about-us/team/exelk-team-girls.jpg'} alt={''}/>
                         </div>
