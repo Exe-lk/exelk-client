@@ -20,14 +20,17 @@ export default function Section1(){
                         <img src="/Images/sec1/expertise/gcp.png" className="img-fluid" alt="..." />
                         <img src="/Images/sec1/expertise/aws.png" className="img-fluid" alt="..." />
                         <img src="/Images/sec1/expertise/azure.png" className="img-fluid" alt="..." />
+                        <img src="/Images/sec1/expertise/figma.png" className="img-fluid" alt="..." />
                         <img src="/Images/sec1/expertise/next.svg" className="img-fluid" alt="..." />
                         <img src="/Images/sec1/expertise/angular.png" className="img-fluid" alt="..." />
+                        <img src="/Images/sec1/expertise/react.jpg" className="img-fluid" alt="..." />
                         <img src="/Images/sec1/expertise/asp.netcore.png" className="img-fluid" alt="..." />
                         <img src="/Images/sec1/expertise/springboot.png" className="img-fluid" alt="..." />
                         <img src="/Images/sec1/expertise/nestjs.png" className="img-fluid" alt="..." />
+                        <img src="/Images/sec1/expertise/flask.webp" className="img-fluid" alt="..." />
                         <img src="/Images/sec1/expertise/android-studio.png" className="img-fluid" alt="..." />
                         <img src="/Images/sec1/expertise/flutter.png" className="img-fluid" alt="..." />
-                        <img src="/Images/sec1/expertise/figma.png" className="img-fluid" alt="..." />
+                        <img src="/Images/sec1/expertise/react-native.png" className="img-fluid" alt="..." />
                         <img src="/Images/sec1/expertise/tensorflow.png" className="img-fluid" alt="..." />
                         <img src="/Images/sec1/expertise/pytorch.png" className="img-fluid" alt="..." />
                         <img src="/Images/sec1/expertise/gpt-4.webp" className="img-fluid" alt="..." />
