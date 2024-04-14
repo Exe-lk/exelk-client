@@ -1,8 +1,18 @@
 body {
   position: relative;
 }
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .animation_img{
+    width: 25px;
+  }
+}
+
 .hero{
   height: 100vh;
+  position: fixed;
+  z-index: -1;
 }
 
 .btn_outline_secondary {

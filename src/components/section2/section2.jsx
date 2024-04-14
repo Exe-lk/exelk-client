@@ -6,10 +6,10 @@ export default function Section2(){
     return(
 
 
-            <div id="section2" className="section2 container-fluid">
-                <div className="container sec2_content">
-                    <h2 className="mb-4 display-6">Our Services</h2>
-                    <div className="row">
+            <div id="section2" className="container-fluid bg-black">
+                <div className="container sec2_content pt-5">
+                    <h2 className=" mb-4 display-6 pt-5">Our Services</h2>
+                    <div className="row pt-5">
                         <ServiceCard header="Research & Development" body="Fueling Innovation: Empowering Your R&D with Our Expert Software Services!" hreflink="services/research-and-development" title={'exelk Research and Development Service'}/>
                         <ServiceCard header="AI & Machine Learning" body="Unleash the Power of AI & Machine Learning: Elevate Your Business with Our Expertise!" hreflink="services/ai-and-machinelearning" title={'exelk AI And Machine Learning Service'}/>
                         <ServiceCard header="AR, VR and MR" body="Step into a New Reality: Experience the Future with AR, VR, and MR Solutions!" hreflink="services/ar-vr-mr" title={'exelk AR VR And MR Service'}/>
