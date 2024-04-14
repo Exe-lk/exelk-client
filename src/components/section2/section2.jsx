@@ -1,6 +1,7 @@
 
 import "./section2.scss"
 import ServiceCard from "@/components/section2/serviceCard/serviceCard";
+import React from "react";
 
 export default function Section2(){
     return(

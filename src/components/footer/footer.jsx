@@ -7,7 +7,7 @@ export default function Footer(){
             <div className="footer container-fluid pt-5">
                 <div className="container footer_content mt-5">
                     <div className="row mt-5 pt-5">
-                        <div className="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 col-xxl-5 text-light mt-3">
+                        <div className="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 col-xxl-5 text-light pt-5">
                             <h3 >Who we are</h3>
                             <h5 className="mt-3 text-light">We Are A Sri Lankan Digital Transformation Consultancy And Software Development Company named Exe.lk (Pvt) Ltd That Provides Cutting Edge Engineering Solutions</h5>
                             <br/>
