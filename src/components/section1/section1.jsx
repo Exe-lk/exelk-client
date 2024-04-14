@@ -4,7 +4,7 @@ import "./section1.scss"
 export default function Section1(){
     return(
 
-        <div id="section1" className="section1 container-fluid bg-dark">
+        <div id="section1" className="section1 container-fluid bg-black">
 
             <div className="sec1_content mt-5 pt-5 pb-5">
                 <h2 className="mt-3 display-7 text-center">Who We Are</h2>

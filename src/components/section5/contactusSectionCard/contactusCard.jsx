@@ -106,23 +106,23 @@ export default function ContactUs(){
                             </div>
                             <div className="contactus_card_body py-2 ">
                                 <form onSubmit={formik.handleSubmit}>
-                                    <div className={'form-floating mb-3 mt-3 '}>
-                                        <input id={'name'} className="form-control rounded-4 form_hover " placeholder="Enter your name here ( ex: Mr Jhon Wick)" value={formik.values.name} onChange={formik.handleChange} onBlur={formik.handleBlur} />
-                                        <label htmlFor={'name'} className='form-label'>Enter your name here</label>
+                                    <div className={'form-floating mb-3 mt-3'}>
+                                        <input id={'name'} className="form-control bg-dark text-light rounded-4 form_hover " placeholder="Enter your name here ( ex: Mr Jhon Wick)" value={formik.values.name} onChange={formik.handleChange} onBlur={formik.handleBlur} />
+                                        <label htmlFor={'name'} className='form-label text-light'>Enter your name here</label>
                                         {formik.touched.name && formik.errors.name ? <div className="text-danger">{formik.errors.name}</div> : null}
                                     </div>
                                     <div className={'form-floating mb-3 mt-3 '}>
-                                        <input id={'occupation'} className="form-control rounded-4 form_hover" placeholder="Enter your occupation ( ex: Founder & CEO of abcd)" value={formik.values.occupation} onChange={formik.handleChange} />
-                                        <label htmlFor={'occupation'} className='form-label'>Enter your occupation</label>
+                                        <input id={'occupation'} className="form-control bg-dark text-light rounded-4 form_hover" placeholder="Enter your occupation ( ex: Founder & CEO of abcd)" value={formik.values.occupation} onChange={formik.handleChange} />
+                                        <label htmlFor={'occupation'} className='form-label text-light'>Enter your occupation</label>
                                         {formik.touched.occupation && formik.errors.occupation ? <div className="text-danger">{formik.errors.occupation}</div> : null}
                                     </div>
                                     <div className={'form-floating mb-3 mt-3'}>
-                                        <input id={'email'} className="form-control rounded-4 form_hover" placeholder="Enter your email address ( ex: jhonwick@exe.lk)" value={formik.values.email} onChange={formik.handleChange} />
-                                        <label htmlFor={'email'} className='form-label'>Enter your email address</label>
+                                        <input id={'email'} className="form-control bg-dark text-light rounded-4 form_hover" placeholder="Enter your email address ( ex: jhonwick@exe.lk)" value={formik.values.email} onChange={formik.handleChange} />
+                                        <label htmlFor={'email'} className='form-label text-light'>Enter your email address</label>
                                         {formik.touched.email && formik.errors.email ? <div className="text-danger">{formik.errors.email}</div> : null}
                                     </div>
                                     <div className={'mb-3 mt-3'}>
-                                        <textarea id={'request'} className="form-control rounded-4 form_hover" rows="10" placeholder="Enter your message here..." value={formik.values.request} onChange={formik.handleChange} />
+                                        <textarea id={'request'} className="form-control bg-dark text-light rounded-4 form_hover" rows="10" placeholder="Enter your message here..." value={formik.values.request} onChange={formik.handleChange} />
                                         {formik.touched.request && formik.errors.request ? <div className="text-danger">{formik.errors.request}</div> : null}
                                     </div>
                                     <button className={'btn btn-primary w-100 rounded-5 form_hover'} type="submit">Send your message</button>

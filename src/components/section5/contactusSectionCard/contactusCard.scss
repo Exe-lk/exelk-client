@@ -16,3 +16,8 @@
   cursor: pointer;
   box-shadow:  0 1rem 4rem #4F83DF !important;
 }
+
+/* Style for the placeholder */
+textarea::placeholder {
+  color: white !important; /* Change this to your desired color */
+}
