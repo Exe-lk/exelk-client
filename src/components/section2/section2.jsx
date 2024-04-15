@@ -19,6 +19,9 @@ export default function Section2(){
                         <ServiceCard header="Network & Security" body="Fortify Your Foundation: Safeguard Your Business with Network & Security Expertise!" hreflink="services/network-and-security" title={'exelk Network And Security Service'}/>
                         <ServiceCard header="Blockchain Development" body="Unlocking Digital Trust: Explore Possibilities with Blockchain Development!" hreflink="services/blockchain-development" title={'exelk BlockChain Development Service'}/>
                         <ServiceCard header="Product Conceptualization" body="From Idea to Reality: Shape Your Vision with Expert Product Conceptualization!" hreflink="services/product-conceptualization" title={'exelk Product Conceptualization Service'}/>
+                        <ServiceCard header="Technical Auditing and Consultation" body="From Idea to Reality: Shape Your Vision with Expert Product Conceptualization!" hreflink="services/technical-auditing-and-consultation" title={'exelk Technical Auditing and Consultation Service'}/>
+                        <ServiceCard header="Search Engine Optimization" body="From Idea to Reality: Shape Your Vision with Expert Product Conceptualization!" hreflink="services/search-engine-optimization" title={'exelk Search Engine Optimization Service'}/>
+                        <ServiceCard header="Social Media Marketing" body="From Idea to Reality: Shape Your Vision with Expert Product Conceptualization!" hreflink="services/social-media-marketing" title={'exelk Social Media Marketing Service'}/>
                     </div>
                 </div>
             </div>

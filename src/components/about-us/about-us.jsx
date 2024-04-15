@@ -134,7 +134,7 @@ export default function AboutUs() {
                                 </div>
                                 <div className={'col-12'}>
                                     <p className={'mt-2'}>Isuru Achintha <br/> BSc (Hons) Software Engineering <br/> University of
-                                        Plymouth, UK<br/><b className={'aboutus_team_name_title_color'}>Software Developer</b></p>
+                                        Plymouth, UK<br/><b className={'aboutus_team_name_title_color'}>Software Engineer</b></p>
                                 </div>
                             </div>
                             <div className={'col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 text-center'}>
@@ -146,7 +146,7 @@ export default function AboutUs() {
                                 </div>
                                 <div className={'col-12'}>
                                     <p className={'mt-2'}>Nisal Wijethunge <br/> BSc (Hons) Software Engineering <br/> University of
-                                        Plymouth, UK<br/><b className={'aboutus_team_name_title_color'}>Software Developer</b></p>
+                                        Plymouth, UK<br/><b className={'aboutus_team_name_title_color'}>Software Engineer</b></p>
                                 </div>
                             </div>
                             <div className={'col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 text-center'}>
