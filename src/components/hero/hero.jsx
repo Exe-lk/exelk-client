@@ -85,12 +85,12 @@ export default function Hero(){
             </div>
             <div className="container pt-5 mt-5">
 
-                <img className="img-fluid" src="/Images/s2.png" alt="img"/>
+                <img className="img-fluid" src="/Images/e-logo-c.png" alt="img"/>
                 {/* website heading */}
-                <h2 className={'text-light'}>We Make Your Idea Executable........</h2>
+                {/* <h2 className={'text-light'}>Make Your Idea Executable</h2> */}
                 {/* button for open client request submit popup  */}
-                <a type="button" className="btn btn-lg btn_outline_secondary mt-5" href="#section5">Connect With Us <i
-                    className="fa-solid fa-arrow-right-long"></i></a>
+                {/* <button  className="btn btn-lg btn_outline_secondary cursor-pointer mt-5" href="#section5">Connect With Us</button> */}
+                <button className="btn btn-lg btn_outline_secondary mt-5">Connect With Us  <i className="fa-solid fa-arrow-right-long"></i></button>
             </div>
         </div>
     )
