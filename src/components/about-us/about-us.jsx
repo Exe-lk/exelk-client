@@ -149,7 +149,7 @@ export default function AboutUs() {
                                         Plymouth, UK<br/><b className={'aboutus_team_name_title_color'}>Software Engineer</b></p>
                                 </div>
                             </div>
-                            <div className={'col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 text-center'}>
+                            {/* <div className={'col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 text-center'}>
                                 <div className={'col-12 '}>
                                     <img className={'img-fluid rounded-circle'}
                                          src={'/Images/about-us/team/exelk-hasanga.jpg'}
@@ -160,8 +160,8 @@ export default function AboutUs() {
                                     <p className={'mt-2'}>Hasanga Ekanayaka <br/> BSc (Hons) Software Engineering <br/> University of
                                         Plymouth, UK<br/><b className={'aboutus_team_name_title_color'}>QA Engineer</b></p>
                                 </div>
-                            </div>
-                            <div className={'col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 text-center'}>
+                            </div> */}
+                            {/* <div className={'col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 text-center'}>
                                 <div className={'col-12 '}>
                                     <img className={'img-fluid rounded-circle'}
                                          src={'/Images/about-us/team/exelk-pahani.jpg'}
@@ -172,7 +172,7 @@ export default function AboutUs() {
                                     <p className={'mt-2'}>Pahani Bihanga <br/> BSc (Hons) Software Engineering <br/> University of
                                         Plymouth, UK<br/><b className={'aboutus_team_name_title_color'}>QA Engineer</b></p>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                     <div className={'col-lg-4 col-xl-4 col-xxl-4 d-none d-md-block'}>
@@ -207,12 +207,12 @@ export default function AboutUs() {
                         <div className={'col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3 mb-3'}>
                             <img className={'img-fluid rounded-5'} src={'/Images/about-us/culture/exelk-friendly-events-badminton-1.jpg'} alt={''}/>
                         </div>
-                        <div className={'col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3 mb-3'}>
+                        {/* <div className={'col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3 mb-3'}>
                             <img className={'img-fluid rounded-5'} src={'/Images/about-us/culture/exelk-friendly-events-fishtherophy-1.jpg'} alt={''}/>
                         </div>
                         <div className={'col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3 mb-3'}>
                             <img className={'img-fluid rounded-5'} src={'/Images/about-us/culture/exelk-friendly-events-fishtherophy-2.jpg'} alt={''}/>
-                        </div>
+                        </div> */}
                         <div className={'col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3 mb-3'}>
                             <img className={'img-fluid rounded-5'} src={'/Images/about-us/culture/exelk-friendly-events-shooting-1.jpg'} alt={''}/>
                         </div>
@@ -222,15 +222,15 @@ export default function AboutUs() {
                         <div className={'col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3 mb-3'}>
                             <img className={'img-fluid rounded-5'} src={'/Images/about-us/culture/exelk-friendly-events-shooting-3.jpg'} alt={''}/>
                         </div>
-                        <div className={'col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3 mb-3'}>
+                        {/* <div className={'col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3 mb-3'}>
                             <img className={'img-fluid rounded-5'} src={'/Images/about-us/culture/exelk-friendly-events-swimming-1.jpg'} alt={''}/>
-                        </div>
-                        <div className={'col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3 mb-3'}>
+                        </div> */}
+                        {/* <div className={'col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3 mb-3'}>
                             <img className={'img-fluid rounded-5'} src={'/Images/about-us/culture/exelk-friendly-events-swimming-2.jpg'} alt={''}/>
-                        </div>
-                        <div className={'col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3 mb-3'}>
+                        </div> */}
+                        {/* <div className={'col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3 mb-3'}>
                             <img className={'img-fluid rounded-5'} src={'/Images/about-us/culture/exelk-friendly-events-swimming-3.jpg'} alt={''}/>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
                 <div className={'row pb-5 pt-5'}>

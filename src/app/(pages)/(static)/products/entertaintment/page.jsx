@@ -1,5 +1,4 @@
 import React from "react";
-import Footer from "@/components/footer/footer";
 
 import './page.scss'
 
@@ -19,7 +18,6 @@ const Entertaintment = () => {
                     </div>
                 </div>
             </div>
-            <Footer/>
         </>
     )
 }
